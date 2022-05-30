@@ -1,0 +1,21 @@
+struct Struct {
+  var b;
+  var c;
+}
+
+def f() {
+  return a * b;
+}
+
+ def main(a, b ,c) {
+  var b<2, 3> = [1, 2, 3, 4, 5, 6];
+  var b = [[10,20,30],[20,20,30]];
+  Struct d = {[10,20,30],[10,20,30,40]};
+  var c<> = multiply_transpose(a.c*b.d);
+  var d = multiply_transpose(b, a);
+  var e = multiply_transpose(b, c);
+  var f = multiply_transpose(transpose(a), c);
+  return a;
+  return f();
+}
+
